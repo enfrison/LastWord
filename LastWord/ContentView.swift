@@ -30,6 +30,17 @@ struct ContentView: View {
                     Rectangle()
                         .padding(.horizontal)
                         .foregroundColor(Color("LW CreamOrange"))
+                    Button(action:{
+                        
+                    } )
+                    {Text("Pizza")}
+                    .padding()
+                    .frame(width: 325)
+                    .foregroundColor(Color("LW Burgundy"))
+                    .background(Color("LW DarkOrange"))
+                    .border((Color("LW Burgundy")), width:5)
+                    .cornerRadius(15
+                    )
                     
                 }
             }
